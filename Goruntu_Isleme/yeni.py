@@ -26,6 +26,4 @@ for i in range(foto.shape[0]):
         histog[pixel_deg] += 1
 
 plt.bar(range(256), histog)
-plt.xlabel("Parlaklık Değeri")
-plt.ylabel("Piksel Sayısı")
 plt.show()
